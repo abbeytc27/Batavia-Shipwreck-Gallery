@@ -50,7 +50,7 @@
     <img src="<?php the_field('blogimage3');?>" class="responsive blogimg" alt="ship images">
     <h4 class="blogh"><?php the_field('blogtitle3'); ?></h4>
     <p class="blogp"><?php the_field('blogexcerpt3'); ?></p>
-    <p class="bloglm"><?php the_field('learnmore3'); ?></p>
+    <p class="bloglm"><?php the_field('learnmore3 '); ?></p>
     </div>
 
  </div> <!-- row -->
@@ -61,20 +61,20 @@
 <section class="container-fluid bookbg">
 <div class="container">
 
-    <h3>Bookings</h3>
+    <h3><?php the_field('titleforbookings');?></h3>
 <div class="row">
  
     <div class="col-md-6 bookimg">
-<img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/girl_looking.png" class="responsive bookimg" alt="girl looking at exhibits">
+<img src="<?php the_field('bookingsimage');?>" class="responsive bookimg" alt="girl looking at exhibits">
     </div>
 
     <div class="col-md-6">
-    <h5><u>Opening Hours</u></h5>
-        <p class="bookp">9:30-5pm daily </p>
-        <p class="bookp">Donation Entry </p>
-        <h5><u>Location</u> </h5>
-           <p class="bookp"> 47 Cliff St, Fremantle WA 6160 </p>
-        <p class="bookp">Bookings are recommended </p>
+    <h5><u><?php the_field('openingtimestitle');?></u></h5>
+        <p class="bookp"><?php the_field('openingtimes');?> </p>
+        <p class="bookp"><?php the_field('donationentry');?> </p>
+        <h5><u><?php the_field('titleforlocation');?></u> </h5>
+           <p class="bookp"> <?php the_field('location');?> </p>
+        <p class="bookp"><?php the_field('bookrec');?> </p>
 
     <button type="button" class="btn btn-danger">Book Tickets</button>
             </div>
