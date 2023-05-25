@@ -39,7 +39,7 @@
 <header class="header">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="index.html"><img src="images/wam_logo.png" alt="wam logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/wam_logo.png" alt="wam logo"></a>
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
