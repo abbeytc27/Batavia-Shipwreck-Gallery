@@ -33,7 +33,7 @@
  
     <div class="row">
 <div class="col-md-4 blogpost">
-    <img src="http://170.187.231.66/~mesh5/wp-content/themes/batavia-shipwreck-gallery/images/consignments.png" class="responsive blogimg" alt="vases">
+    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/consignments.png" class="responsive blogimg" alt="vases">
     <h4 class="blogh">Consignments of the Batavia</h4>
     <p class="blogp">It occurred on June 4, 1629, when the Dutch East India Company's flagship, Batavia, 
         crashed into a coral reef off the coast of Western Australia.</p>
@@ -41,7 +41,7 @@
 </div>
 
 <div class="col-md-4 blogpost">
-    <img src="http://170.187.231.66/~mesh5/wp-content/themes/batavia-shipwreck-gallery/images/shipwreck.png" class=" responsive blogimg" alt="shipwreck">
+    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/shipwreck.png" class=" responsive blogimg" alt="shipwreck">
     <h4 class="blogh">Ins and Outs of the Ship</h4>
     <p class="blogp">The ship was carrying over 300 passengers, including soldiers, sailors, and merchants, 
         as well as a large amount of treasure and supplies. However, the voyage was doomed from the start.</p>
@@ -49,7 +49,7 @@
     </div>
 
 <div class="col-md-4 blogpost">
-    <img src="http://170.187.231.66/~mesh5/wp-content/themes/batavia-shipwreck-gallery/images/ship_docked.png" class="responsive blogimg" alt="ship images">
+    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/ship_docked.png" class="responsive blogimg" alt="ship images">
     <h4 class="blogh">Batavia's History</h4>
     <p class="blogp">In this blog post, we will delve into the mysterious tale of the Batavia shipwreck 
         and explore the tragic history uncovered</p>
@@ -68,7 +68,7 @@
 <div class="row">
  
     <div class="col-md-6 bookimg">
-<img src="http://170.187.231.66/~mesh5/wp-content/themes/batavia-shipwreck-gallery/images/girl_looking.png" class="responsive bookimg" alt="girl looking at exhibits">
+<img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/girl_looking.png" class="responsive bookimg" alt="girl looking at exhibits">
     </div>
 
     <div class="col-md-6">
