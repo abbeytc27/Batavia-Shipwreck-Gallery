@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: CV
+    Template Name: Bookings
     */
     ?>
 <?php require_once('page_header.php'); ?>
