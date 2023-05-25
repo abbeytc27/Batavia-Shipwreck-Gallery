@@ -10,20 +10,16 @@
                 
 <div class="col-md-6">
     
-<h3><?php the_field('titleforheader'); ?></h2><!--  custom field for the aboutme content-->
-    <p class="darkp">Those who survived the wreck faces a brutal ending</p>
-    <p class="darkp mutinies">Jeronimus Cornelisz one of the bloodiest mutinies in history. 
-        He believed he had to eliminate all remaining survivors.</p>
-
-       <p class="darkp survivor"> 341 people boarded the boat. 
-        116 survived....</p>
-
+<h3><?php the_field('titleforheader'); ?></h3><!--  custom field for the aboutme content-->
+<p class="darkp"><?php the_field('subtitleforheader'); ?></p>
+<p class="darkp mutinies"><?php the_field('paragraphforheader'); ?></p>
+<p class="darkp survivor"><?php the_field('sectionforheader'); ?></p>
+    
     <p class="darkp history-learn">Learn More</p>
 </div>
 
 <div class="col-md-6">
-    <h2>“He believed 
-        he had to eliminate all remaining survivors”</h2>
+<h2><?php the_field('quoteforheader'); ?></h2>
 </div>
         </div> <!-- row -->
     </div> <!-- container -->
@@ -33,16 +29,14 @@
 <!-- Blog Posts -->
 <section class="container-fluid blogbg">
 <div class="container">
-
-    <h3 class="blog">Blog Posts</h3>
+<h3 class="blog"><?php the_field('titleforblogs'); ?></h3>
  
     <div class="row">
 <div class="col-md-4 blogpost">
     <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/consignments.png" class="responsive blogimg" alt="vases">
-    <h4 class="blogh">Consignments of the Batavia</h4>
-    <p class="blogp">It occurred on June 4, 1629, when the Dutch East India Company's flagship, Batavia, 
-        crashed into a coral reef off the coast of Western Australia.</p>
-    <p class="bloglm">Learn More</p>
+    <h4 class="blogh"><?php the_field('slogtitle1'); ?></h4>
+    <p class="blogp"><?php the_field('blogexerpt'); ?></p>
+    <p class="bloglm"><?php the_field('learnmore'); ?></p>
 </div>
 
 <div class="col-md-4 blogpost">
