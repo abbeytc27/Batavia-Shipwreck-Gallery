@@ -40,19 +40,17 @@
 </div>
 
 <div class="col-md-4 blogpost">
-    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/shipwreck.png" class=" responsive blogimg" alt="shipwreck">
-    <h4 class="blogh">Ins and Outs of the Ship</h4>
-    <p class="blogp">The ship was carrying over 300 passengers, including soldiers, sailors, and merchants, 
-        as well as a large amount of treasure and supplies. However, the voyage was doomed from the start.</p>
-    <p class="bloglm">Learn More</p>
+    <img src="<?php the_field('blogimage2');?>" class=" responsive blogimg" alt="shipwreck">
+    <h4 class="blogh"><?php the_field('blogtitle2'); ?></h4>
+    <p class="blogp"><?php the_field('blogexcerpt2'); ?></p>
+    <p class="bloglm"><?php the_field('learnmore2'); ?></p>
     </div>
 
 <div class="col-md-4 blogpost">
-    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/ship_docked.png" class="responsive blogimg" alt="ship images">
-    <h4 class="blogh">Batavia's History</h4>
-    <p class="blogp">In this blog post, we will delve into the mysterious tale of the Batavia shipwreck 
-        and explore the tragic history uncovered</p>
-    <p class="bloglm">Learn More</p>
+    <img src="<?php the_field('blogimage3');?>" class="responsive blogimg" alt="ship images">
+    <h4 class="blogh"><?php the_field('blogtitle3'); ?></h4>
+    <p class="blogp"><?php the_field('blogexcerpt3'); ?></p>
+    <p class="bloglm"><?php the_field('learnmore3'); ?></p>
     </div>
 
  </div> <!-- row -->
