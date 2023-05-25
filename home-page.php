@@ -9,11 +9,21 @@
             <div class="row">
                 
 <div class="col-md-6">
-<h2><?php the_field('titleforheader'); ?></h2><!--  custom field for the aboutme content-->
+    
+<h3><?php the_field('titleforheader'); ?></h2><!--  custom field for the aboutme content-->
+    <p class="darkp">Those who survived the wreck faces a brutal ending</p>
+    <p class="darkp mutinies">Jeronimus Cornelisz one of the bloodiest mutinies in history. 
+        He believed he had to eliminate all remaining survivors.</p>
+
+       <p class="darkp survivor"> 341 people boarded the boat. 
+        116 survived....</p>
+
+    <p class="darkp history-learn">Learn More</p>
 </div>
 
 <div class="col-md-6">
-   
+    <h2>“He believed 
+        he had to eliminate all remaining survivors”</h2>
 </div>
         </div> <!-- row -->
     </div> <!-- container -->
