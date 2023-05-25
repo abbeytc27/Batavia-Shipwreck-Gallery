@@ -35,7 +35,7 @@
 <div class="col-md-4 blogpost">
     <img src="<?php the_field('blogimage1');?>" class="responsive blogimg" alt="vases">
     <h4 class="blogh"><?php the_field('blogtitle1'); ?></h4>
-    <p class="blogp"><?php the_field('blogexerpt'); ?></p>
+    <p class="blogp"><?php the_field('blogexcerpt'); ?></p>
     <p class="bloglm"><?php the_field('learnmore'); ?></p>
 </div>
 
