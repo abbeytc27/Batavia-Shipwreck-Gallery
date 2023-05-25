@@ -14,16 +14,16 @@
         </div>
 
 <div class="link">
-    <img src="images/facebook.png" class="link" alt="facebook">
+    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/facebook.png" class="link" alt="facebook">
 </div>
 <div class="link">
-    <img src="images/instagram.png" class="link" alt="instagram">
+    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/instagram.png" class="link" alt="instagram">
 </div>
 <div class="link">
-    <img src="images/pinterest.png" class="link" alt="pinterest">
+    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/pinterest.png" class="link" alt="pinterest">
 </div>
 <div class="link">
-    <img src="images/youtube.png" class="link" alt="youtube">
+    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/youtube.png" class="link" alt="youtube">
 </div>
 
         <p class="footercopy">All content copyright Government of Western Australia, All rights reserved.</p>
