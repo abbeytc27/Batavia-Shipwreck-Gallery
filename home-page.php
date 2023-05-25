@@ -33,8 +33,8 @@
  
     <div class="row">
 <div class="col-md-4 blogpost">
-    <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/consignments.png" class="responsive blogimg" alt="vases">
-    <h4 class="blogh"><?php the_field('slogtitle1'); ?></h4>
+    <img src="<?php the_field('blogimage1');?>" class="responsive blogimg" alt="vases">
+    <h4 class="blogh"><?php the_field('blogtitle1'); ?></h4>
     <p class="blogp"><?php the_field('blogexerpt'); ?></p>
     <p class="bloglm"><?php the_field('learnmore'); ?></p>
 </div>
