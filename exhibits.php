@@ -19,8 +19,8 @@
                     </div>
                     <div class="col-md-4">
                         <img src="<?php the_field('historyimage'); ?>" class="exhibitimg" alt="the history of the ship">
-                        <a href="history.html"><h4><?php the_field('historyimage'); ?></h4></a>
-                        <p class="exhibitsmp"><?php the_field('historytitle'); ?></p>
+                        <a href="history.html"><h4><?php the_field('historytitle'); ?></h4></a>
+                        <p class="exhibitsmp"><?php the_field('historyparagraph'); ?></p>
                     </div>
                     <div class="col-md-4">
                         <img src="<?php the_field('boatimage'); ?>" class="exhibitimg" alt="the ship">
