@@ -36,7 +36,7 @@
 
 </head>
 <body>
-<header class="header">
+<header class="small.herobg">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="index.html"><img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/wam_logo.png" alt="wam logo"></a>
