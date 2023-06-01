@@ -2,6 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
+endif; ?>
             <img src="images/wam_logo.png" class="footwam" alt="wam logo"></div>
             <div class="col-md-6"><p class="footerp">The Western Australian Museum acknowledges and respects the Traditional Owners of their ancestral lands,
                  waters and skies.</p></div>
