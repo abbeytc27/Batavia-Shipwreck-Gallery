@@ -2,22 +2,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-            <img src="images/wam_logo.png" class="footwam" alt="wam logo"></div>
+           <!--  <img src="images/wam_logo.png" class="footwam" alt="wam logo"></div> -->
 
             <div class="col-md-6 widgetleft">
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
 endif; ?>
-
-                <p class="footerp">The Western Australian Museum acknowledges and respects the Traditional Owners of their ancestral lands,
-                 waters and skies.</p></div>
+                <!-- <p class="footerp">The Western Australian Museum acknowledges and respects the Traditional Owners of their ancestral lands,
+                 waters and skies.</p></div> -->
         
 
         <div>
-        <p class="footerab">About the Gallery <br>
+      <!--   <p class="footerab">About the Gallery <br>
             Bookings <br>
-            Exhibits</p>
+            Exhibits</p> -->
         </div>
-
+<!-- 
 <div class="link">
     <img src="http://170.187.231.66/~mesh5/wp-content/themes/Batavia-Shipwreck-Gallery/images/facebook.png" class="link" alt="facebook">
 </div>
@@ -32,7 +31,7 @@ endif; ?>
 </div>
 
         <p class="footercopy">All content copyright Government of Western Australia, All rights reserved.</p>
-
+ -->
 
     </div> <!-- row -->
     </div> <!-- container -->
