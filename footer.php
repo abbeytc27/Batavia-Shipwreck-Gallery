@@ -1,21 +1,24 @@
 <footer class="container-fluid footerbg"> 
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 widgetleft">
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
+endif; ?>
             <img src="images/wam_logo.png" class="footwam" alt="wam logo"></div>
 
-            <div class="col-md-6 widgetleft">
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
+            <div class="col-md-6 widgetright">
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-right') ) : 
 endif; ?>
 
-                <p class="footerp">The Western Australian Museum acknowledges and respects the Traditional Owners of their ancestral lands,
-                 waters and skies.</p></div>
+
+                <!-- <p class="footerp">The Western Australian Museum acknowledges and respects the Traditional Owners of their ancestral lands,
+                 waters and skies.</p> --></div>
         
 
         <div>
-        <p class="footerab">About the Gallery <br>
+        <!-- <p class="footerab">About the Gallery <br>
             Bookings <br>
-            Exhibits</p>
+            Exhibits</p> -->
         </div>
 
 <div class="link">
