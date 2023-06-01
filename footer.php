@@ -5,8 +5,9 @@
             <img src="images/wam_logo.png" class="footwam" alt="wam logo"></div>
 
             <div class="col-md-6 widgetleft">
-            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
 endif; ?>
+
                 <p class="footerp">The Western Australian Museum acknowledges and respects the Traditional Owners of their ancestral lands,
                  waters and skies.</p></div>
         
@@ -43,4 +44,3 @@ endif; ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
 </body>
 </html>
-
