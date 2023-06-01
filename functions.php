@@ -22,7 +22,8 @@ add_action( 'after_setup_theme', 'register_navwalker' );
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'top-menu' ),
 ) );
-?><?php
+?>
+<?php
 function footer_left() {
 
   register_sidebar( array(
