@@ -62,7 +62,7 @@ wp_nav_menu( array(
 ?>
       
         <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+<!--         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
@@ -75,7 +75,7 @@ wp_nav_menu( array(
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
       
 <section class="container-fluid">
 <div class="container">
