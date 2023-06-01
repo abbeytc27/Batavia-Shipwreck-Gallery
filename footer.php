@@ -4,7 +4,7 @@
             <div class="col-md-6 widgetleft">
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) : 
 endif; ?>
-            <img src="images/wam_logo.png" class="footwam" alt="wam logo"></div>
+            <!-- <img src="images/wam_logo.png" class="footwam" alt="wam logo"></div> -->
 
             <div class="col-md-6 widgetright">
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-right') ) : 
