@@ -11,6 +11,12 @@
         justify-content: flex-end;
     }
 
+    @media (min-width: 768px){
+        .navbar-expand-md {
+            justify-content: flex-start;
+        }
+        }
+
 /* HEADER */
     .header{
         background-image: url(images/bg1.png);
