@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Exhibits2
+    Template Name: Exhibits1
     */
     ?>
 <?php require_once('blog_header.php'); ?>
@@ -9,7 +9,7 @@
         <div class="row">
         <?php 
 $args = array(
-  'category_name' =>  'Exhibits2',
+  'category_name' =>  'Exhibits1',
  // 'posts_per_page'    =>   1
 );
 // the query
