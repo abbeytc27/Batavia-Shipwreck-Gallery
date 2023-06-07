@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="responsive.css"> -->
-<title><?php
+<title>
+  <?php
               if (function_exists('is_tag') && is_tag()) {
                  single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
               elseif (is_archive()) {
@@ -36,7 +37,6 @@
 
 </head>
 <body>
-<header class="header">
 <header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('exhibitsbackgroundimage') ?>);">
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
@@ -46,9 +46,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
       
-        <?php _
-
-wp_nav_menu( array(
+        <?php wp_nav_menu( array(
   'theme_location'  => 'primary',
   'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
   'container'       => 'div',
@@ -62,7 +60,7 @@ wp_nav_menu( array(
 ?>
       
         <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
@@ -75,23 +73,12 @@ wp_nav_menu( array(
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
       
-<section class="container-fluid">
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-   <div class="tag">
-            <h1 >Blood,<br><span class="sweat">Sweat,</span><br>Mutiny</h1>
-        </div>
-        </div>
-<div class="col-md-6">
-        <p class="experience">Experience the bloody history of the Batavia ship that sailed our shores.</p>
-        <button type="button" class="btn btn-dangerh">Book Tickets</button>
-    </div>
-    
-    </div>
-</div> <!-- container -->
-</section> <!-- container-fluid -->
-<?php wp_head(); ?> 
-    </header> <!-- header -->
+      <section class="container-fluid">
+                <div class="container">
+                    <h1 class="exhibith">Exhibits</h1>
+                </div>
+            </section> <!-- container-fluid -->
+<?php wp_head(); ?>
+</header>
