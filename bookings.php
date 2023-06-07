@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Booking Page
+    Template Name: Booking Page1
     */
     ?>
     <?php get_header();?>
