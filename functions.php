@@ -50,3 +50,6 @@ function footer_right() {
 }
 add_action( 'widgets_init', 'footer_right' );
 ?>
+<?php
+add_theme_support('post-thumbnails'); 
+?>
