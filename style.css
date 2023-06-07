@@ -521,3 +521,10 @@ h4 {
     padding-top: 1em;
     padding-bottom: 2em;
 }
+
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+}
