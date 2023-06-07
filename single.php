@@ -4,32 +4,32 @@
         <div class="row">
             <section class="maintext">
 
-<article class="excerpts"> <!--we can reuse the css on the old article to restyle the new dynamic posts-->
+<article class="excerpts"> 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                     
     <div <?php post_class(); ?>>
 
         <div class="postcontent">
-            <?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
+            <?php ?>
             <?php the_content(); ?>
-        </div><!--postcomtet-->
+        </div>
                         
         <div class="content-band">
             <span class="postmeta-category"><?php the_category(', '); ?></span>
             <span class="postmeta-comments"><?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?></span>
             
-        </div><!--content-band-->
-    </div><!--post class-->
+        </div>
+    </div>
     <div class="related-template">
     <h3>RELATED POSTS</h3>
     <ul class="rel-list">
         <?php
-        $backup = $post; //Backup current post object
-        $current = $post->ID;  //get current post id 
+        $backup = $post; 
+        $current = $post->ID; 
                                 
         global $post;
 
-        //Fetch categories of current post
+
         $counter = 0;
         $allcats = '';
         foreach ((get_the_category()) as $cat) {
@@ -48,7 +48,7 @@
         </li>
         <?php endforeach;
                                 
-        $post = $backup; //restore current post object
+        $post = $backup; 
         wp_reset_query();
         ?>
     </ul>
@@ -63,7 +63,7 @@
     <?php else: ?>
     <div class="post">
         <p>Sorry, no posts found.</p>
-    </div><!--post-->
+    </div>
     <?php endif; ?>
 </article>
 </section>
