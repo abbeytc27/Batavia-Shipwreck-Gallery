@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Booking Page1
+    Template Name: Booking Page2
     */
     ?>
 <?php require_once('booking_header.php'); ?>
