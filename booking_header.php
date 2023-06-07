@@ -46,9 +46,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
       
-        <?php _
-
-wp_nav_menu( array(
+        <?php wp_nav_menu( array(
   'theme_location'  => 'primary',
   'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
   'container'       => 'div',
@@ -62,7 +60,7 @@ wp_nav_menu( array(
 ?>
       
         <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <!--   <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
@@ -75,7 +73,7 @@ wp_nav_menu( array(
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
       
       <section class="container-fluid">
             <div class="container">
