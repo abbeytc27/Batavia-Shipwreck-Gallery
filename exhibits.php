@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Exhibits
+    Template Name: Exhibits1
     */
     ?>
     <?php get_header();?>
@@ -30,7 +30,7 @@
                     <div class="col-md-4">
                         <img src="<?php the_field('survivorsimage'); ?>" class="exhibitimg" alt="the survivors">
                         <a href="exhibits.html"><h4><?php the_field('survivorstitle'); ?></h4></a>
-                        <p class="exhibitsmp"><?php the_field('survivoursparagraph'); ?> </p>
+                        <p class="exhibitsmp"><?php the_field('survivorsparagraph'); ?> </p>
                     </div>
                     <div class="col-md-4">
                         <img src="<?php the_field('wreckimage'); ?>" class="exhibitimg" alt="the wrecking of the ship">
