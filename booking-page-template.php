@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Booking Page
+    Template Name: Booking Page1
     */
     ?>
 <?php require_once('booking_header.php'); ?>
@@ -37,3 +37,4 @@
     </div>
   </div>
 <?php get_footer(); ?>
+    </header>
