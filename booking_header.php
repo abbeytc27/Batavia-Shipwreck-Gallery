@@ -46,7 +46,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
       
-        <?php wp_nav_menu( array(
+    <?php wp_nav_menu( array(
   'theme_location'  => 'primary',
   'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
   'container'       => 'div',
@@ -72,8 +72,8 @@
               <a class="nav-link" href="exhibits.html">Blogs</a>
             </li>
           </ul>
-        </div>
-      </nav> -->
+        </div>-->
+      </nav> 
       
       <section class="container-fluid">
             <div class="container">
