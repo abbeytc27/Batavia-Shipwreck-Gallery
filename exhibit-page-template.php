@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Exhibits1
+    Template Name: Exhibits
     */
     ?>
 <?php require_once('exhibits.php'); ?>
