@@ -1,9 +1,9 @@
 <?php
     /*
-    Template Name: Booking Page2
+    Template Name: Booking Page
     */
     ?>
-    <?php get_header();?>
+   <?php require_once('booking_header.php'); ?>
 <section class="container-fluid buttonbg">
     <div class="container">
         <div class="row">
