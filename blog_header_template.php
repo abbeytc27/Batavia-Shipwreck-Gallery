@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Exhibits1
+    Template Name: Exhibits2
     */
     ?>
 <?php require_once('blog_header.php'); ?>
