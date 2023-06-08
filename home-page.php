@@ -1,7 +1,7 @@
 <?php/*
     Template Name: Home page
     */
-    ?>
+    ?>  
 <?php get_header();?>   <!--  Tells WordPress to include header.php -->
  <!-- Dark History -->
     <section class="container-fluid history">
