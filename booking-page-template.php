@@ -1,10 +1,10 @@
 <?php
     /*
-    Template Name: Booking Page2
+    Template Name: Booking Page1
     */
     ?>
 <?php require_once('booking_header.php'); ?>
-<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('bookingsbackgroundimage') ?>);">
+<header class="container-fluid">
     <div class="container">
         <div class="row">
             <section class="maintext">              
