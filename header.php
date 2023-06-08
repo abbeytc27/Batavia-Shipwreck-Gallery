@@ -74,8 +74,8 @@ wp_nav_menu( array(
               <a class="nav-link" href="exhibits.html">Blogs</a>
             </li>
           </ul>
-        </div>
-      </nav> -->
+        </div>-->
+      </nav> 
       
 <section class="container-fluid">
 <div class="container">
